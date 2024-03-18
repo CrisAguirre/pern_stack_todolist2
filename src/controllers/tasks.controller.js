@@ -1,0 +1,1 @@
+//se ejecutan las funciones cuando las urls son solicitadas
