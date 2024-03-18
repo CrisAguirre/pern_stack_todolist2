@@ -1,5 +1,6 @@
 Todolist versión alternativa
 
+
 Command list:
 - npm init -y
 - npm i express morgan cors
@@ -26,4 +27,5 @@ Command list:
 - 
 - 
 - 
-- 
+- run: npm run dev
+13:24
