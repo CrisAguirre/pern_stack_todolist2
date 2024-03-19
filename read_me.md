@@ -28,4 +28,4 @@ Command list:
 - 
 - 
 - run: npm run dev
-13:24
+29:40
