@@ -2,10 +2,10 @@ Todolist versión alternativa
 
 
 Command list:
-- npm init -y
-- npm i express morgan cors
-- npm i nodemon -D
-- 
+- npm init -y /Iniciar proyecto Node
+- npm i express morgan cors /Middleware visor-peticiones fix-cors
+- npm i nodemon -D /reinicio-server-cambios
+- npm i pg /conector postgres
 - 
 - 
 - 
