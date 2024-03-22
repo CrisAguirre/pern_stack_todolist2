@@ -6,9 +6,9 @@ Command list:
 - npm i express morgan cors /Middleware visor-peticiones fix-cors
 - npm i nodemon -D /reinicio-server-cambios
 - npm i pg /conector postgres
-- nom i dotenv /lib variables de entorno
-- 
-- 
+- npm i dotenv /lib variables de entorno
+- npx create-react-app client /instalación react
+- npm i react-router-dom
 -  
 - 
 - 
