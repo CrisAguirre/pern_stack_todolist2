@@ -27,15 +27,21 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import TaskList from "./components/TaskList";
 import TaskForm from "./components/Taskform";
+import {Container} from '@mui/material'
+import Menu from './components/Navbar'
 
 export default function App() {
   return ( 
     <BrowserRouter>
-      <Routes> 
-        <Route path="/" element={<TaskList />} />
-        <Route path="/tasks/new" element={<TaskForm />} />
-        /*edit route*/
-      </Routes> 
+    <Menu/>
+      <Container>
+        <Routes> 
+          <Route path="/" element={<TaskList />} />
+          <Route path="/tasks/new" element={<TaskForm />} />
+          /*edit route*/
+        </Routes> 
+      </Container>
+      
     </BrowserRouter> 
   );
 }
