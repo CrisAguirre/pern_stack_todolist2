@@ -18,4 +18,4 @@ Command list:
 - 
 - 
 - run: npm run dev
-1:12:00
+1:52:00
