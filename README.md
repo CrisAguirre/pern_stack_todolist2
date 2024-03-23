@@ -12,10 +12,5 @@ Command list:
 - npm install @mui/material @emotion/react @emotion/styled
 - npm install @mui/icons-material
 - npm install @fontsource/roboto
-- 
-- 
-- 
-- 
-- 
+- ...
 - run: npm run dev
-1:52:00

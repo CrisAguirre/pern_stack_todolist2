@@ -38,6 +38,8 @@ export default function App() {
         <Routes> 
           <Route path="/" element={<TaskList />} />
           <Route path="/tasks/new" element={<TaskForm />} />
+          <Route path="/tasks/:id/edit" element={<TaskForm />} />
+
           /*edit route*/
         </Routes> 
       </Container>
