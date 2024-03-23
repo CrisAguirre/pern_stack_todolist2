@@ -56,7 +56,7 @@ export default function TaskForm(){
                             name='title'
                             onChange={handleChange}
                             inputProps={{style: {color: "black"}}}
-                            InputlabelProps={{style: {color: "black"}}}
+                            inputlabelprops={{style: {color: "black"}}}
                         />
                         <TextField
                             variant='filled'
@@ -70,7 +70,7 @@ export default function TaskForm(){
                             name='description'
                             onChange={handleChange}
                             inputProps={{style: {color: "black"}}}
-                            InputlabelProps={{style: {color: "black"}}}
+                            inputlabelprops={{style: {color: "black"}}}
                         />
 
                         <Button variant="contained" color="primary" type="submit" disabled={ !task.title || !task.description}>
